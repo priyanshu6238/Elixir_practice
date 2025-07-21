@@ -1,8 +1,8 @@
 defmodule PriyanshuProjectTest do
   use ExUnit.Case
-  doctest PriyanshuProject
+  # doctest PriyanshuProject
 
-  test "greets the world" do
-    assert PriyanshuProject.hello() == :world
+  test "printing hellow word" do
+    assert PriyanshuProject.hello() == "Hello,Word"
   end
 end

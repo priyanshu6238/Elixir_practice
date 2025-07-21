@@ -13,6 +13,6 @@ defmodule PriyanshuProject do
 
   """
   def hello do
-    :world
+    "Hello,Word"
   end
 end
