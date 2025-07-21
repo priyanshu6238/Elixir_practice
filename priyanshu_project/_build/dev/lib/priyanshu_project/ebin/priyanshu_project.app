@@ -1,5 +1,5 @@
 {application,priyanshu_project,
-             [{modules,['Elixir.PriyanshuProject']},
+             [{modules,['Elixir.Lasagna','Elixir.PriyanshuProject']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger]},
               {description,"priyanshu_project"},
