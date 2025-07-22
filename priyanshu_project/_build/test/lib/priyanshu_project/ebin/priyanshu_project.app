@@ -1,6 +1,7 @@
 {application,priyanshu_project,
              [{modules,['Elixir.FreelancerRates','Elixir.Lasagna',
-                        'Elixir.PriyanshuProject','Elixir.Rules']},
+                        'Elixir.PriyanshuProject','Elixir.Rules',
+                        'Elixir.Secrets']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger]},
               {description,"priyanshu_project"},
