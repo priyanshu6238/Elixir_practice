@@ -1,6 +1,6 @@
 defmodule BirdCount do
     def today([]) do  end
-    def today([head|tail]) do
+    def today([head| _tail]) do
         head
        
     end

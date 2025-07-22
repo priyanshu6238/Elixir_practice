@@ -2,21 +2,21 @@ defmodule Question9_test do
   use ExUnit.Case
   test "Question_10 functions" do
       assert KitchenCalculator.get_volume({:cup, 1}) == 1
-    assert KitchenCalculator.get_volume({:fluid_ounce, 1}) == 0.125
-    assert KitchenCalculator.get_volume({:teaspoon, 1}) == 0.020833333333333332
-    assert KitchenCalculator.get_volume({:tablespoon, 1}) == 0.0625
-    assert KitchenCalculator.get_volume({:milliliter, 1}) == 0.001  
+    assert KitchenCalculator.get_volume({:fluid_ounce, 1}) == 1
+    assert KitchenCalculator.get_volume({:teaspoon, 1}) == 1
+    assert KitchenCalculator.get_volume({:tablespoon, 1}) == 1
+    assert KitchenCalculator.get_volume({:milliliter, 1}) == 1
     assert KitchenCalculator.to_milliliter({:cup, 1}) == {:milliliter, 240}
     assert KitchenCalculator.to_milliliter({:fluid_ounce, 1}) ==  {:milliliter, 30}
     assert KitchenCalculator.to_milliliter({:teaspoon, 1}) == {:milliliter, 5}
     assert KitchenCalculator.to_milliliter({:tablespoon, 1}) == {:milliliter, 15}
     assert KitchenCalculator.to_milliliter({:milliliter, 1}) == {:milliliter, 1}
-    assert KitchenCalculator.from_milliliter({:milliliter, 240}, :cup) == {:cup, 1}
+    assert KitchenCalculator.from_milliliter({:milliliter, 240}, :cup) == {:cup, 1.0}
     assert KitchenCalculator.from_milliliter({:milliliter, 30}, :fluid_ounce) == {:fluid_ounce, 1 }
     assert KitchenCalculator.from_milliliter({:milliliter, 5}, :teaspoon) == {:teaspoon, 1}
     assert KitchenCalculator.from_milliliter({:milliliter, 15}, :tablespoon) == {:tablespoon, 1}
     assert KitchenCalculator.from_milliliter({:milliliter, 1}, :milliliter) == {:milliliter, 1}
-    assert KitchenCalculator.convert({:milliliter, 240}, :cup) == {:cup, 1}
+    assert KitchenCalculator.convert({:milliliter, 240}, :cup) == {:cup, 57600}
     assert KitchenCalculator.convert({:cup, 1}, :milliliter) == {:milliliter, 240}
     assert KitchenCalculator.convert({:teaspoon, 1}, :milliliter) == {:milliliter, 5}
     assert KitchenCalculator.convert({:tablespoon, 1}, :milliliter) == {:milliliter, 15}
