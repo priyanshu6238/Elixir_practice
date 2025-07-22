@@ -1,5 +1,6 @@
 {application,priyanshu_project,
-             [{modules,['Elixir.FreelancerRates','Elixir.GuessingGame',
+             [{modules,['Elixir.BirdCount','Elixir.FreelancerRates',
+                        'Elixir.GuessingGame','Elixir.HighSchoolSweetheart',
                         'Elixir.KitchenCalculator','Elixir.LanguageList',
                         'Elixir.Lasagna','Elixir.LogLevel',
                         'Elixir.PriyanshuProject','Elixir.Rules',
