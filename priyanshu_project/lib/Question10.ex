@@ -12,9 +12,6 @@ defmodule HighSchoolSweetheart do
   
     def initials(full_name) do
        [head |[head1|_tail]]=String.split(full_name)
-      
-      IO.puts(String.at(head,0))
-      IO.puts(String.at(head1,0))
       String.at(head,0) <> ". " <> String.at(head1,0) <> "."
       
     end
