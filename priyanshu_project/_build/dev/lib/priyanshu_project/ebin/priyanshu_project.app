@@ -6,7 +6,7 @@
                         'Elixir.LogLevel','Elixir.NameBadge',
                         'Elixir.PriyanshuProject','Elixir.RPG.CharacterSheet',
                         'Elixir.Rules','Elixir.Secrets','Elixir.TakeANumber',
-                        'Elixir.Username']},
+                        'Elixir.Username','Elixir.WineCellar']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger]},
               {description,"priyanshu_project"},
