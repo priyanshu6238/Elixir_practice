@@ -15,7 +15,6 @@ defmodule GuessingGame do
     "Too low"
   end
 
-
   def compare(_secret_number, _guess \\ :atom) do
     "Make a guess"
   end

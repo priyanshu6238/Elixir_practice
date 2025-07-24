@@ -4,7 +4,6 @@ defmodule Question14_test do
 
   test "Question14_test functions" do
     io = capture_io(fn -> assert RPG.CharacterSheet.welcome() == :ok end)
-    assert io =="Welcome! Let's fill out your character sheet together.\n"
-    
+    assert io == "Welcome! Let's fill out your character sheet together.\n"
   end
 end
