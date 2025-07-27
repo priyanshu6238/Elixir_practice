@@ -1,6 +1,7 @@
 {application,priyanshu_project,
              [{modules,['Elixir.BasketballWebsite','Elixir.BirdCount',
-                        'Elixir.BoutiqueInventory','Elixir.Chessboard',
+                        'Elixir.BoutiqueInventory',
+                        'Elixir.BoutiqueSuggestions','Elixir.Chessboard',
                         'Elixir.DNA','Elixir.FileSniffer',
                         'Elixir.FreelancerRates','Elixir.GuessingGame',
                         'Elixir.HighSchoolSweetheart','Elixir.HighScore',
