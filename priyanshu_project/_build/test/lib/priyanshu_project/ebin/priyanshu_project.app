@@ -9,7 +9,7 @@
                         'Elixir.Lasagna','Elixir.ListNode','Elixir.LogLevel',
                         'Elixir.NameBadge','Elixir.Newsletter',
                         'Elixir.PaintByNumber','Elixir.PriyanshuProject',
-                        'Elixir.Question29','Elixir.RPG',
+                        'Elixir.Question29','Elixir.Question32','Elixir.RPG',
                         'Elixir.RPG.Character','Elixir.RPG.CharacterSheet',
                         'Elixir.RPG.Edible',
                         'Elixir.RPG.Edible.RPG.LoafOfBread',
