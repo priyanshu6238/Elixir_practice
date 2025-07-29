@@ -46,6 +46,4 @@ defmodule RPG do
       {%RPG.EmptyBottle{}, %RPG.Character{health: 0, mana: m}}
     end
   end
-
-  # Add code to define the protocol and its implementations below here...
 end
