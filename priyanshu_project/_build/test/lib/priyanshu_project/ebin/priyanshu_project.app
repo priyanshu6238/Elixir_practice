@@ -10,7 +10,7 @@
                         'Elixir.NameBadge','Elixir.NeedForSpeed',
                         'Elixir.Newsletter','Elixir.PaintByNumber',
                         'Elixir.PriyanshuProject','Elixir.Question29',
-                        'Elixir.Question32','Elixir.RPG',
+                        'Elixir.Question32','Elixir.Question35','Elixir.RPG',
                         'Elixir.RPG.Character','Elixir.RPG.CharacterSheet',
                         'Elixir.RPG.Edible',
                         'Elixir.RPG.Edible.RPG.LoafOfBread',
