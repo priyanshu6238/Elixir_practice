@@ -7,10 +7,8 @@ defmodule Questtion37 do
 
         if l < r do
           if Enum.at(height, l) <= Enum.at(height, r) do
-            IO.inspect(val, label: "left")
             {:cont, {{l + 1, r}, y}}
           else
-            IO.inspect(val, label: "right")
             {:cont, {{l, r - 1}, y}}
           end
         else
