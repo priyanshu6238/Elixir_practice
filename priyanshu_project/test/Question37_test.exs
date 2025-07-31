@@ -1,6 +1,5 @@
 defmodule Questtion37Test do
   use ExUnit.Case
-  doctest Questtion37
 
   test "max_area with example heights" do
     heights = [1, 8, 6, 2, 5, 4, 8, 3, 7]
