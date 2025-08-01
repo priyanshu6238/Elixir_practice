@@ -12,7 +12,7 @@
                         'Elixir.PaintByNumber','Elixir.PriyanshuProject',
                         'Elixir.Question29','Elixir.Question32',
                         'Elixir.Question35','Elixir.Question36',
-                        'Elixir.Questtion37','Elixir.RPG',
+                        'Elixir.Question40','Elixir.Questtion37','Elixir.RPG',
                         'Elixir.RPG.Character','Elixir.RPG.CharacterSheet',
                         'Elixir.RPG.Edible',
                         'Elixir.RPG.Edible.RPG.LoafOfBread',
