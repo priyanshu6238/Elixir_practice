@@ -14,7 +14,7 @@
                         'Elixir.Question32','Elixir.Question35',
                         'Elixir.Question36','Elixir.Question40',
                         'Elixir.Question41','Elixir.Question43',
-                        'Elixir.Questtion37','Elixir.RPG',
+                        'Elixir.Question44','Elixir.Questtion37','Elixir.RPG',
                         'Elixir.RPG.Character','Elixir.RPG.CharacterSheet',
                         'Elixir.RPG.Edible',
                         'Elixir.RPG.Edible.RPG.LoafOfBread',
